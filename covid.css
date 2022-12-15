@@ -1,0 +1,37 @@
+.anime1{
+    width: 50px;
+    height: 50px;
+    
+    margin-left: 50px;
+    background-color: rgb(255, 0, 0);
+    animation: anime 10s infinite ;
+    border-radius: 25%;
+}
+
+.anime2{
+    width: 50px;
+    height: 50px;
+    margin-left: 1300px;
+    margin-top: 400px;
+    background-color: rgb(255, 0, 0);
+    animation: anime 10s infinite ;
+    border-radius: 25%;
+}
+@keyframes anime{
+    0%{
+    }
+    25%{
+        background-color: gold;
+    }
+    50%{
+        transform: rotate(360deg);
+        background-color: aqua;
+    }
+    75%{
+        background-color: rgb(21, 255, 0);   
+    }
+    100%{
+        transform: rotate(-360deg);
+        
+    }
+}
